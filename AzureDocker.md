@@ -1,4 +1,6 @@
 # AzureDocumentation
+# select suse linux enterprise server 15
+
 ```
 sudo yum install -y docker
 sudo systemctl start docker
