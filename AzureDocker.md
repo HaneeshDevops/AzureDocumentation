@@ -1,5 +1,5 @@
 # AzureDocumentation
-# select suse linux enterprise server 15
+## select SUSE Linux Enterprise Server 15 SP4 +Patching - Gen2
 
 ```
 yum install -y docker
