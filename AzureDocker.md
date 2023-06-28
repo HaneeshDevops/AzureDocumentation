@@ -2,7 +2,7 @@
 ## select SUSE Linux Enterprise Server 15 SP4 +Patching - Gen2
 
 ```
-yum install -y docker
+sudo zypper install -y docker
 systemctl start docker
 systemctl enable docker
 sudo curl -L "https://github.com/docker/compose/releases/download/v2.5.0/docker-compose-linux-x86_64" -o /usr/local/bin/docker-compose
