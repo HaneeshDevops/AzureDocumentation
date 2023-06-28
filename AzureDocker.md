@@ -11,7 +11,7 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 zypper update -y
 zypper install -y maven
 mvn -version
-zypper install git -y
+zypper install git
 git clone https://github.com/HaneeshDevops/SpringBootEcommerceApplication.git
 cd SpringBootEcommerceApplication
 mvn install -DskipTests
