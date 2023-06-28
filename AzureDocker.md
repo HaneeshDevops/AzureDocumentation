@@ -17,12 +17,3 @@ cd SpringBootEcommerceApplication
 mvn install -DskipTests
  docker-compose up -d
 ```
-#
-```
-wget http://mirror.olnevhost.net/pub/apache/maven/maven-3/3.2.5/binaries/apache-maven-3.2.5-bin.tar.gz
-tar xzf apache-maven-3.2.5-bin.tar.gz
-sudo mv apache-maven-3.2.5 /opt/
-echo 'export PATH=/opt/apache-maven-3.2.5/bin:$PATH' >> ~/.bashrc
-source ~/.bashrc
-
-```
